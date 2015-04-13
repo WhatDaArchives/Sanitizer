@@ -15,3 +15,7 @@ If you think about anything else that could be added, feel free to submit a PR o
 ## Install
 
 In progress.
+
+## Thanks
+
+Thanks for Jeffrey Way and Laracasts for the inspiration and examples. http://laracasts.com
