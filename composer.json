@@ -18,7 +18,7 @@
     "suggest": {},
     "autoload": {
         "psr-4": {
-            "BackPack\\": "src"
+            "Sanitizr\\": "src"
         }
     },
     "autoload-dev": {},
