@@ -23,7 +23,7 @@ composer require whatdafox/serializer
 Create a class that extends `Serializer\Serializer` and create a property `rules` to indicate your rules
 
 ```
-<php
+<?php
 
 use Serializer\Serializer;
 
@@ -40,6 +40,8 @@ class AcmeSanitizer extends Serializer {
 To use your sanitizer, just call the `sanitize()` method with the array of data like so:
 
 ```
+<?php
+
 $sanitizer = new AcmeSanitizer;
 
 $data = [
