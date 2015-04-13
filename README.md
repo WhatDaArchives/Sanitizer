@@ -1,18 +1,17 @@
-# BackPack
+# Sanitizr
 
-Basic template to create PHP packages.
+Basic sanitizer class for PHP applications.
 
 ## Features
 
-- Composer default json file
-- PHPUnit default config file
-- Default src & tests folder created
-- Default PSR-4 namespace
-- TravisCI default configuration
-- Default license (MIT)
+Sanitize an array of data to any set of rules.
 
-If you think about anything else that could be added to create a complete template for package bootstrap, feel free to submit a PR on the develop branch.
+## Methods
 
-## Installer
+- All php text methods
 
-I also created a handy [BackPack Installer](https://github.com/WhatDaFox/BackPack-Installer), feel free to check it out!
+If you think about anything else that could be added, feel free to submit a PR on the develop branch.
+
+## Install
+
+In progress.
