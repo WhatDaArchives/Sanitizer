@@ -1,8 +1,8 @@
-<?php namespace Sanitizr;
+<?php namespace Sanitizer;
 
 /**
  * Class Sanitizer
- * @package Sanitizr
+ * @package Sanitizer
  * @author  Valentin Prugnaud <valentin@sccnorthwest.com>
  */
 abstract class Sanitizer

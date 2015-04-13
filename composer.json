@@ -1,8 +1,8 @@
 {
-    "name": "whatdafox/backpack",
-    "description": "Template generator for PHP Packages",
+    "name": "whatdafox/sanitizer",
+    "description": "Simple sanitizer class for PHP",
     "keywords": [],
-    "homepage": "https://github.com/WhatDaFox/BackPack",
+    "homepage": "https://github.com/WhatDaFox/Sanitizer",
     "license": "MIT",
     "authors": [
         {
@@ -19,7 +19,7 @@
     "suggest": {},
     "autoload": {
         "psr-4": {
-            "Sanitizr\\": "src"
+            "Sanitizer\\": "src"
         }
     },
     "autoload-dev": {},

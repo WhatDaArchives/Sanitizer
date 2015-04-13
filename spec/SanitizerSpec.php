@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Sanitizr;
+namespace spec\Sanitizer;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -10,7 +10,7 @@ class SanitizerSpec extends ObjectBehavior
 
     function let()
     {
-        $this->beAnInstanceOf('spec\Sanitizr\TestSanitizer');
+        $this->beAnInstanceOf('spec\Sanitizer\TestSanitizer');
     }
 
     function it_sanitizes_data_against_a_set_of_rules()
@@ -54,7 +54,7 @@ class SanitizerSpec extends ObjectBehavior
 
 }
 
-class TestSanitizer extends \Sanitizr\Sanitizer {
+class TestSanitizer extends \Sanitizer\Sanitizer {
 
     protected $rules = [
         'name' => 'trim|ucwords',

@@ -1,4 +1,4 @@
 suites:
     sanitizr_suite:
-        namespace: Sanitizr
-        psr4_prefix: Sanitizr
+        namespace: Sanitizer
+        psr4_prefix: Sanitizer
