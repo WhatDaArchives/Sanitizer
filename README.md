@@ -17,15 +17,15 @@ If you think about anything else that could be added, feel free to submit a PR o
 Install this package through composer
 
 ```
-composer require whatdafox/serializer
+composer require whatdafox/sanitizer
 ```
 
-Create a class that extends `Serializer\Serializer` and create a property `rules` to indicate your rules
+Create a class that extends `Sanitizer\Sanitizer` and create a property `rules` to indicate your rules
 
 ```php
 <?php
 
-use Serializer\Serializer;
+use Sanitizer\Sanitizer;
 
 class AcmeSanitizer extends Serializer {
 
@@ -56,8 +56,19 @@ $data = $sanitizer->sanitize($data);
 //     'name' => 'John Doe',
 //     'email' => 'johndoe@example.com'
 // ]
-
 ```
+
+## Custom sanitizers
+
+If you would like to create your own sanitizing methods, just create a method with the `sanitize` prefix on your class like so: 
+
+```php
+public function sanitizeSnakeCase(){
+    //
+}
+```
+
+Then add `snakeCase` anywhere in your rules to use it!
 
 That's all folks!
 
