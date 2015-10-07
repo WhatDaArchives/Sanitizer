@@ -90,7 +90,7 @@ $this->app->resolving(AcmeSanitizer::class, function($sanitizer, $app) {
     $app->request->merge($sanitizer->sanitize($app->request->all()));
 });
 ```
-*This example will apply the rules to the request data when resolving the injected sanitizer class, this way you do not have to call sanitize yourself!*
+*This example will apply the rules to the request data when resolving the injected sanitizer class, this way you do not have to call `sanitize()` yourself!*
 
 
 That's all folks!
